@@ -1,17 +1,18 @@
 # MetaStripper
 Ever shared a document, image, or video without realizing embedded metadata could expose sensitive details? MetaStripper helps remove hidden data before sharing.
-MetaStripper is a tool to remove metadata from various file types, ensuring privacy and security by cleaning sensitive information. It provides a graphical user interface (GUI) and supports multiple file formats. This project includes a Python script and portable executables for Windows, (and you can do that for macOS, and Linux).
+MetaStripper is a tool to remove metadata from various file types, ensuring privacy and security by cleaning sensitive information. It provides a graphical user interface (GUI) and supports multiple file formats. This project includes a Python script and portable executables for Windows, (you can do the same for macOS, and Linux).
 
 ## Contents
 - `metastripper.py`: Python source script (requires Python 3.11 and dependencies).
-- `MetaStripper.exe`: (optional, you can compile it yourself)Portable executable for Windows.
+- `MetaStripper.exe`: Portable for Windows (optional, find it in  release, or create it from the Py script). 
 - `MetaStripper` (macOS): Portable executable for macOS (optional, build required).
 - `MetaStripper` (Linux): Portable executable for Linux (optional, build required).
 - `LICENSE`: MIT License.
 - `ffmpeg.exe` (optional): For video metadata removal on Windows.
-- `ffmpeg.md` (optional) To download the last compatible version for your OS, through the offical link. 
-- `requirements.txt` (For compiling).
+- `ffmpeg.md`: For video metadata removal on Windows. Download the last compatible version for your OS.
+- `requirements.txt` (For python).
 - `MetaStripper_UI_Screenshot.png`
+  
 ## Download MetaStripper
 The latest version of MetaStripper is available for download via GitHub Releases:  
 👉 [Download MetaStripper.exe](https://github.com/socialawy/MetaStripper/releases/latest)
@@ -66,7 +67,7 @@ The latest version of MetaStripper is available for download via GitHub Releases
    pip install -r requirements.txt
    
 #### Note: You might want to use a virtual environment to avoid conflicts:
-'bash'
+```bash
 python -m venv env
 source env/bin/activate  # macOS/Linux
 env\Scripts\activate  # Windows
@@ -94,4 +95,4 @@ pip install -r requirements.txt
 This project is distributed under the MIT License. Users are free to modify, distribute, and use MetaStripper for personal or commercial purposes under the MIT License. See LICENSE for details.
 
 ## Contact
-For questions or support, contact socialawy at Twitter" @ahmed_f
+For questions or support, contact socialawy at Twitter: @ahmed_f
