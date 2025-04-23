@@ -9,7 +9,8 @@ MetaStripper is a tool to remove metadata from various file types, ensuring priv
 - `MetaStripper` (Linux): Portable executable for Linux (optional, build required).
 - `LICENSE`: MIT License.
 - `ffmpeg.exe` (optional): For video metadata removal on Windows.
-- `requirements.txt` (For compiling)
+- `ffmpeg.md` (optional) To download the last compatible version for your OS, through the offical link. 
+- `requirements.txt` (For compiling).
 
 ## Supported File Formats
 - **Images**: JPG, JPEG, PNG, TIFF, BMP, WEBP, GIF, SVG, HEIC, CR2, NEF
