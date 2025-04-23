@@ -1,6 +1,6 @@
 # MetaStripper
 Ever shared a document, image, or video without realizing embedded metadata could expose sensitive details? MetaStripper helps remove hidden data before sharing.
-MetaStripper is a tool to remove metadata from various file types, ensuring privacy and security by cleaning sensitive information. It provides a graphical user interface (GUI) and supports multiple file formats. This project includes a Python script and portable executables for Windows, macOS, and Linux.
+MetaStripper is a tool to remove metadata from various file types, ensuring privacy and security by cleaning sensitive information. It provides a graphical user interface (GUI) and supports multiple file formats. This project includes a Python script and portable executables for Windows, (and you can do that for macOS, and Linux).
 
 ## Contents
 - `metastripper.py`: Python source script (requires Python 3.11 and dependencies).
