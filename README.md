@@ -12,6 +12,10 @@ MetaStripper is a tool to remove metadata from various file types, ensuring priv
 - `ffmpeg.md` (optional) To download the last compatible version for your OS, through the offical link. 
 - `requirements.txt` (For compiling).
 - `MetaStripper_UI_Screenshot.png`
+## Download MetaStripper
+The latest version of MetaStripper is available for download via GitHub Releases:  
+👉 [Download MetaStripper.exe](https://github.com/socialawy/MetaStripper/releases/latest)
+
 ## Supported File Formats
 - **Images**: JPG, JPEG, PNG, TIFF, BMP, WEBP, GIF, SVG, HEIC, CR2, NEF
 - **Documents**: DOCX, XLSX, PDF, TXT, CSV, ODT, RTF
