@@ -1,0 +1,13 @@
+pillow
+pypdf2
+python-pptx
+python-docx
+imageio
+pillow-heif
+openpyxl
+odfpy
+mutagen
+rarfile
+py7zr
+hachoir
+ffmpeg-python
